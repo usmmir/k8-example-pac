@@ -12,7 +12,8 @@ spec:
         name: pacman
     spec:
       containers:
-      - image: quay.io/ifont/pacman-nodejs-app:latest
+      - image: __IMAGE__@__DIGEST__
+      #- image: quay.io/ifont/pacman-nodejs-app:latest
         name: pacman
         ports:
         - containerPort: 8080
